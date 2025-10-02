@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "HelveticaNeueGEO";
+  src: url("../fonts/HELVETICANEUELTGEO-45LIGHTS.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeueGEO";
+  src: url("../fonts/HELVETICA-NEUE-LT-GEO-75-BOLD.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "HelveticaNeueGEO", sans-serif;
+  background-color: blue;
+}
+header {
+  display: flex;
+  justify-content: center;
+  padding-top: 27px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1474px;
+  width: 100%;
+  padding: 0 16px;
+}
+
+ul a {
+  text-decoration: none;
+  color: #ffffff;
+}
+ul li {
+  display: inline-block;
+  list-style: none;
+  font-size: 16px;
+  margin-right: 40px;
+  font-weight: 300;
+}
+
+button {
+  color: #171717;
+  background-color: #ffffff;
+  padding: 18px 43px 18px 36px;
+  font-size: 16px;
+  border: none;
+  border-radius: 28px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.images-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 49px;
+}
+.images-container img {
+  width: 45%;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-top: 97px;
+}
+.img-1 {
+  max-width: 707px;
+  max-height: 597px;
+}
+
+.img-2 {
+  max-width: 948px;
+  max-height: 800px;
+}
+.dots-container,
+.second {
+  display: flex;
+  justify-content: flex-start;
+}
+.dots-container div {
+  margin-right: 20px;
+}
+.second div {
+  margin-right: 20px;
+}
+.dot {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.light {
+  opacity: 30%;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 707px;
+  margin: 0 auto;
+}
