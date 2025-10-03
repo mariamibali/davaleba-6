@@ -93,6 +93,7 @@ button {
   margin-right: 20px;
 }
 .dot {
+  background-color: #ffffff;
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -155,4 +156,39 @@ h1 {
   display: flex;
   gap: 138px;
   padding-bottom: 394px;
+}
+.blue-container {
+  background-color: #0020f4;
+  height: 308px;
+  width: 100%;
+}
+.projects-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 16px;
+  color: #ffffff;
+}
+.project-images {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.parent p {
+  position: absolute;
+  right: 10px;
+  left: 10px;
+  bottom: 10px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+}
+.bold-p {
+  font-weight: 700;
+}
+.parent {
+  position: relative;
+  max-width: 463px;
+  width: 100%;
+  max-height: 420px;
 }
