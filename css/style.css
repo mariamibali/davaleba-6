@@ -17,22 +17,21 @@
 }
 body {
   font-family: "HelveticaNeueGEO", sans-serif;
-  background-color: blue;
 }
 header {
   display: flex;
   justify-content: center;
-  padding-top: 27px;
 }
 
 .header-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  position: fixed;
+  padding: 27px 16px;
   margin: 0 auto;
-  max-width: 1474px;
   width: 100%;
-  padding: 0 16px;
+  background-color: #0020f4;
 }
 
 ul a {
@@ -57,7 +56,9 @@ button {
   text-transform: uppercase;
   font-weight: 300;
 }
-
+.main-section {
+  background-color: #0020f4;
+}
 .images-container {
   display: flex;
   justify-content: flex-end;
@@ -69,8 +70,7 @@ button {
   width: 45%;
   height: auto;
   border-radius: 15px;
-  object-fit: cover;
-  margin-top: 97px;
+  margin-top: 215px;
 }
 .img-1 {
   max-width: 707px;
@@ -93,7 +93,6 @@ button {
   margin-right: 20px;
 }
 .dot {
-  background-color: white;
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -106,4 +105,54 @@ button {
   justify-content: space-between;
   max-width: 707px;
   margin: 0 auto;
+  padding-bottom: 65px;
+}
+
+.container {
+  max-width: 1307px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.about-section,
+.services-section {
+  padding-top: 180px;
+}
+.text-div {
+  max-width: 463px;
+  width: 100%;
+  display: inline-block;
+}
+h1 {
+  font-size: 32px;
+}
+.about-container {
+  display: flex;
+  gap: 137px;
+  padding-bottom: 214px;
+}
+.about-container p {
+  font-size: 16px;
+  color: #171717;
+}
+.first-p {
+  margin-top: 60px;
+  margin-bottom: 22px;
+}
+.about-container img {
+  max-width: 707px;
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.services-section img {
+  max-width: 707px;
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.services-container {
+  display: flex;
+  gap: 138px;
+  padding-bottom: 394px;
 }
